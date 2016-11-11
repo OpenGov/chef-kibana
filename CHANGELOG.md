@@ -1,6 +1,8 @@
 # CHANGELOG for kibana
 
 This file is used to list changes made in each version of kibana.
+## 1.3.4:
+* Update nginx dependency
 
 ## 1.3.0:
 * big rewrite to act as library cookbook.
