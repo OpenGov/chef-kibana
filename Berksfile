@@ -1,14 +1,8 @@
-# Encoding: utf-8
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
 
-source 'https://api.berkshelf.com' if Gem::Version.new(Berkshelf::VERSION) > Gem::Version.new('3')
+source 'https://supermarket.chef.io'
 
 metadata
-cookbook 'yum'
-cookbook 'apt'
-cookbook 'nginx'
-cookbook 'apache2'
-cookbook 'git'
-cookbook 'java'
-cookbook 'ark'
 
 cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git'
